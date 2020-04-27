@@ -180,18 +180,13 @@ var_1 = 1 and var_2 = 2 initially, once the code has run var_1 should equal 2
 and var_2 should equal 1.
 '''
 
-a = input("Please input a number: ")
-print(a)
-b = input("Please input a second number: ")
-print(b)
-if a.isdigit() and b.isdigit():
-    a, b = b, a
-    print(a, b)
-
-
-
-
-
+# a = input("Please input a number: ")
+# print(a)
+# b = input("Please input a second number: ")
+# print(b)
+# if a.isdigit() and b.isdigit():
+#     a, b = b, a
+#     print(a, b)
 
 
 
