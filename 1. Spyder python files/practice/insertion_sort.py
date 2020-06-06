@@ -33,7 +33,7 @@ def bubble_sort(my_list):
                 swap_again = True
     return my_list  
 
-# Create a list of integers
+# Create a list of 50000 integers
 test_list = [randint(0,50000) for integer in range(50000)]
 
 
@@ -43,12 +43,13 @@ insertion_sort(test_list)
 end = process_time()
 total = end - start
 
+
 # Bubble sort
 start1 = process_time()
 bubble_sort(test_list)
 end1 = process_time()
 total1 = end1 - start1
 
+# Print the results
 print(f'Insertion Sort time: /n start: {start} /n end: {end} /n total: {total}')
-
 print(f'Bubble Sort time: /n start: {start1} /n end: {end1} /n total: {total1}')
