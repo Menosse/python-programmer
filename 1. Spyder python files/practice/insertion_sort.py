@@ -12,7 +12,6 @@ def insertion_sort(my_list):
     n = len(my_list)
     for i in range(1,n):
         value = my_list[i]
-        # print(value)
         j = i
         while j > 0 and my_list[j - 1] > value:
             my_list[j] = my_list[j-1]
